@@ -76,6 +76,7 @@ I transitioned from industrial engineering into software development, focusing o
 
 ## 📊 GitHub Stats
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Hedgerock&layout=compact)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hedgerock&theme=github_dark)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Hedgerock&show_icons=true)
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hedgerock&theme=github_dark)
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Hedgerock&theme=github_dark)
