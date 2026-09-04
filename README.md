@@ -1,82 +1,75 @@
-# Hi there 👋
+# Dmytro Vasyliev
 
-My name is Dmitro and I’m a Backend / Full-Stack Developer with a strong technical engineering background (Master’s degree in Mechanical Engineering).
+### Java / Full-stack Developer
 
-I transitioned from industrial engineering into software development, focusing on backend systems, architecture, and scalable applications.
+I build backend and full-stack applications with Java, Spring Boot, Node.js, and React.
 
----
+Since May 2023, I have been growing from frontend development into backend engineering: APIs, databases, asynchronous processing, microservices, testing, and containerized environments.
 
-🧑‍💻 I build backend systems using Node.js and Java (Spring Boot)  
-🏗️ I focus on system design, distributed processing, and scalable architectures  
-⚙️ I have experience with queues, databases, and containerized applications  
-🌱 I continuously improve my skills in backend engineering and DevOps practices  
-💬 Ask me about backend development, system design, Docker, APIs, and architecture  
-📫 How to reach me: Telegram | LinkedIn  
-⚡ Fun fact: I come from mechanical engineering, so I approach software like an engineering system, not just code  
+Currently open to remote Java, Backend, and Full-stack Developer opportunities.
 
----
+## Selected projects
 
-## 🛠️ Languages and Tools
+### [Product Application](https://github.com/Hedgerock/product_application)
 
-**Backend:** Node.js, Express, Java, Spring Boot, Redis, PostgreSQL  
-**Frontend:** React, Next.js, TypeScript  
-**DevOps:** Docker, CI/CD, Linux, Bash  
-**Other:** Git, REST APIs, Microservices concepts  
+A Java 17 and Spring Boot microservices platform for a product catalogue.
 
----
+- Eight applications: API Gateway, Eureka Server, Config Server, Spring Boot Admin, catalogue, feedback, manager, and customer services.
+- Spring MVC and JPA with PostgreSQL and Flyway for the catalogue API.
+- Reactive Spring WebFlux and MongoDB service for reviews and favourite products.
+- Keycloak-based OAuth2/JWT security, Spring Cloud Gateway routing, Eureka service discovery, and centralized configuration.
+- Observability with Actuator, Micrometer, Prometheus, VictoriaMetrics, Grafana, Loki, Tempo, and OpenTelemetry.
+- Docker Compose environment and unit/integration tests.
 
-## 🚀 Projects
+**Stack:** Java 17, Spring Boot, Spring Cloud, Spring Security, Keycloak, OAuth2/JWT, PostgreSQL, MongoDB, Flyway, Maven, Docker.
 
-- 📬 Notification System — queue-based architecture with async processing and retry mechanisms  
-- ☁️ Cloud Application — deployment and infrastructure-focused project  
-- 🧩 Full-Stack Applications — React + backend APIs integration  
-- 🛠️ Engineering & experimental projects for system design practice  
+### [Minecraft Launcher](https://github.com/Hedgerock/Minecraft-launcher)
 
----
+A modular Java desktop launcher focused on clean architecture and reliable game startup.
 
-## 🔥 Focus Areas
+- Multi-module architecture with isolated core, API, storage, verification, downloader, natives, game, app, and UI layers.
+- State-machine-driven lifecycle: manifest loading, verification, download planning, native extraction, launch-command creation, and process startup.
+- SHA-256 validation, safe resource-path resolution, atomic downloads, and ZIP path-traversal protection.
+- Java runtime discovery, classpath construction, `ProcessBuilder` integration, custom `EventBus`, ADR/RFC documentation, and 82 JUnit test classes.
 
-- Backend architecture & system design  
-- Event-driven systems  
-- Scalable API development  
-- Reliable distributed processing  
-- Clean and maintainable architecture  
+**Stack:** Java 21, Gradle Kotlin DSL, JUnit Jupiter, JavaFX, Jackson, Java NIO, HTTP, SHA-256.
 
----
+### [Notifications Bot](https://github.com/Hedgerock/notifications_bot)
 
----
-## 🧑‍💻 Backend stack
+A Telegram notification service with scheduled background processing.
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+- Telegram Bot API commands, inline keyboards, individual and group subscriptions.
+- PostgreSQL data model, Flyway migrations, Sequelize, Redis, and Bull queues.
+- JWT-protected administrative API, Server-Sent Events, Puppeteer-based data collection, Docker Compose, and Jest tests.
 
-## ⚙️ Frontend
+**Stack:** Node.js, Express, PostgreSQL, Redis, Bull, Docker, Flyway, JWT, Telegram Bot API.
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+### [Web Tools](https://github.com/Hedgerock/tools)
 
-## 🛠 DevOps
+A React and TypeScript SPA with UUID generation and abbreviation tools.
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2C2C2C?style=for-the-badge&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+- Redux Toolkit state management and LocalStorage persistence.
+- Reusable HOCs, Context API, custom hooks, and typed component configuration.
+- [Live demo](https://hedgerock.github.io/tools/).
 
-## 🗄 Databases
+**Stack:** React, TypeScript, Redux Toolkit, Vite, CSS.
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+## Core stack
 
-## 🔧 Tools
+- **Java:** Java 17/21, Spring Boot, Spring MVC, Spring WebFlux, Spring Cloud, Spring Security, Hibernate, JPA, Maven, Gradle.
+- **Backend:** REST APIs, OAuth2/JWT, Keycloak, PostgreSQL, MongoDB, Redis, Flyway, Docker.
+- **Frontend:** React, TypeScript, Redux Toolkit.
+- **Engineering:** microservices, multi-module architecture, testing, observability, event-driven systems, CI-friendly project structure.
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+## What I care about
 
----
+- Clear module boundaries and maintainable architecture.
+- Reliable APIs, safe file and resource handling, and observable services.
+- Tests, documentation, and practical system design.
+- Solving backend problems end to end — from API design to deployment.
 
-## 📊 GitHub Stats
+## Contact
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hedgerock&theme=github_dark)
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hedgerock&theme=github_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Hedgerock&theme=github_dark)
+- Telegram: [@Hedgerock](https://t.me/Hedgerock)
+- LinkedIn: [Dmytro Vasyliev](https://www.linkedin.com/in/dmitro-vasyliev-215334236/)
+- GitHub: [Hedgerock](https://github.com/Hedgerock)
